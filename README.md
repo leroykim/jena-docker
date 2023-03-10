@@ -1,4 +1,4 @@
-# Docker file update for Jena Fuseki 4.7.0
+# Dockerfile update for Jena Fuseki 4.7.0
 This is a Dockerfile update for Jena Fuseki 4.7.0.
 There are changes in `jena-fuseki/Dockerfile` only.
 
@@ -18,8 +18,7 @@ For the convenience, I uploaded built image to [my public Docker Hub repository]
 docker pull leroykim/jena-fuseki-4.7.0
 ```
 
-
-# Docker files for Jena
+## Docker files for Jena (original readme)
 
 [![Build](https://github.com/stain/jena-docker/actions/workflows/main.yml/badge.svg)](https://github.com/stain/jena-docker/actions/workflows/main.yml)
 

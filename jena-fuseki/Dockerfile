@@ -35,8 +35,8 @@ ENV ASF_MIRROR http://www.apache.org/dyn/mirrors/mirrors.cgi?action=download&fil
 ENV ASF_ARCHIVE http://archive.apache.org/dist/
 
 LABEL org.opencontainers.image.authors "Stian Soiland-Reyes <stain@apache.org>", "Dae-young Kim <leroy.kim@umbc.edu>"
-LABEL org.opencontainers.image.url https://github.com/stain/jena-docker/tree/master/jena-fuseki
-LABEL org.opencontainers.image.source https://github.com/stain/jena-docker/
+LABEL org.opencontainers.image.url https://github.com/leroykim/jena-docker/tree/master/jena-fuseki
+LABEL org.opencontainers.image.source https://github.com/leroykim/jena-docker
 LABEL org.opencontainers.image.documentation https://jena.apache.org/documentation/fuseki2/
 LABEL org.opencontainers.image.title "Apache Jena Fuseki"
 LABEL org.opencontainers.image.description "Fuseki is a SPARQL 1.1 server with a web interface, backed by the Apache Jena TDB RDF triple store."

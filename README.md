@@ -1,3 +1,24 @@
+# Docker file update for Jena Fuseki 4.7.0
+This is a Dockerfile update for Jena Fuseki 4.7.0.
+There are changes in `jena-fuseki/Dockerfile` only.
+
+Specifically from:
+```dockerfile
+ENV FUSEKI_SHA512 21850b9d106d40962cb8358cf5731509ed9f38be7f47a0fc7e2fa22247d89faf7b4ef3ecb58cac590b7592b3b8340b80214ab7ca67b9d1231acb68df62b8bd3d
+ENV FUSEKI_VERSION 4.4.0
+```
+to:
+```dockerfile
+ENV FUSEKI_SHA512 9646343a23c2563357207f559cb7437aa91b52d02b87e70d77b746b609e93ed0ad9dce06e072f864d53422946f24aa8ee60d9c594c1f82e8f2ab226eba56e474
+ENV FUSEKI_VERSION 4.7.0
+```
+
+For the convenience, I uploaded built image to [my public Docker Hub repository](https://hub.docker.com/r/leroykim/jena-fuseki-4.7.0):
+```bash
+docker pull leroykim/jena-fuseki-4.7.0
+```
+
+
 # Docker files for Jena
 
 [![Build](https://github.com/stain/jena-docker/actions/workflows/main.yml/badge.svg)](https://github.com/stain/jena-docker/actions/workflows/main.yml)

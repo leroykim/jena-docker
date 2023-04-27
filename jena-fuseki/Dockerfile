@@ -14,7 +14,7 @@
 #   limitations under the License.
 
 
-FROM openjdk:11-jre-slim-buster
+FROM openjdk:21-slim-buster
 
 ENV LANG C.UTF-8
 RUN set -eux; \
